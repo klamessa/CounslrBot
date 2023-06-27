@@ -21,7 +21,7 @@ if response == "Y":
                 stressor=input("So can you do something about what is stressing you? Y or N?")
                 if stressor == 'Y':
                     print('')
-                    print("Than my best advice is to write down all the things you CAN do,and DO it!")
+                    print("Then my best advice is to write down all the things you CAN do,and DO it!")
                     print("You'll feel a lot better once you get the ball rolling")
                 elif stressor == 'N':
                     print('')
@@ -46,7 +46,7 @@ if response == "Y":
             Q3 = input('Can you do something about this said problem? Y or N? ')
             if Q3 == 'Y':
                 print("")
-                print("Than my best advice is to write down all the things you CAN do,and DO it!")
+                print("Then my best advice is to write down all the things you CAN do,and DO it!")
                 print("You'll feel a lot better once you get the ball rolling")
                 print("Goodluck")
             elif Q3 == 'N':
