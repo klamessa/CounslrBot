@@ -10,3 +10,10 @@ def give_advice():
         print("Also remember that life is just ups and downs, so know that for the dark time you're in, there will be better days.")
     else:
         print('\nPlease enter Y or N')
+
+
+name = input("Enter your name: ")
+print('\nHi', name, "!, I'm counselor bot! I heard you're stressed?")
+print("...")
+response = input("is this true? Y or N?  ").upper()
+
