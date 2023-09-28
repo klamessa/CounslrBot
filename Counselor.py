@@ -17,3 +17,19 @@ print('\nHi', name, "!, I'm counselor bot! I heard you're stressed?")
 print("...")
 response = input("is this true? Y or N?  ").upper()
 
+
+if response == 'Y':
+    Q2 = input("\nI'm sorry to hear that, Do you want me to listen (L) or offer advice (A) ?").upper()
+    if Q2 == 'L':
+        problem = input("\nWhat's going on?")
+        if problem != '':
+            print('\nThanks for sharing, hope that made you feel better...')
+            print("I know that I can't exactly say that I know how you feel, after all I'm just a bot...")
+            lAdvice = input("But I could offer some practical advice on your stress..? Y or N?").upper()
+            if lAdvice == 'Y':
+                give_advice()
+            elif lAdvice == 'N':
+                print('\nNo worries, always here to listen! Take it easy now')
+            else:
+                print('\nPlease enter Y or N')
+
