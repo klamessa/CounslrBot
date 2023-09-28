@@ -32,4 +32,17 @@ if response == 'Y':
                 print('\nNo worries, always here to listen! Take it easy now')
             else:
                 print('\nPlease enter Y or N')
+    elif Q2 == 'A':
+        input("What's going on?")
+        print('\nThanks for sharing, hope that made you feel better...')
+        print("I know that I can't exactly say that I know how you feel, after all I'm just a bot...")
+        give_advice()
+    else:
+        print('\nPlease enter L or A')
+else:
+    print('\nLooks like you\'ve got things under control, you have a good one!')
+
+
+
+
 
