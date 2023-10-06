@@ -50,6 +50,18 @@ else:
     print('\nLooks like you\'ve got things under control, you have a good one!')
 
 
+def relaxation_tips():
+    """Provide relaxation techniques."""
+    print("\nHere are some relaxation techniques that may help:")
+    print("1. Deep Breathing: Take a deep breath in, hold for 3 seconds, and exhale slowly. Repeat 5 times.")
+    print("2. Visualization: Close your eyes and imagine a peaceful place, like a beach or a forest.")
+    print("3. Stretching: Stand up, reach for the sky, and then touch your toes. Rotate your wrists and ankles.")
+    print("4. Take a Break: Sometimes, just stepping away from a problem for a few minutes can help clear your mind.")
+    print("5. Listen to Music: Put on your favorite calming song and take a moment to just listen.")
+    print("\nRemember, everyone is different. What works for one person might not work for another. It's all about finding what's best for you.")
+
+
+
 
 
 
