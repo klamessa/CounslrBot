@@ -8,6 +8,13 @@ def give_advice():
         print("\nYou can't do anything about this problem, looks like it's out of your control")
         print("Try destressing or seeking help: you never know who is willing to lend a hand.")
         print("Also remember that life is just ups and downs, so know that for the dark time you're in, there will be better days.")
+        rTip = input("Would you like some relaxation tips? Y or N?").upper()
+        if rTip == 'Y':
+            relaxation_tips()
+        elif rTip == 'N':
+            print('\nNo worries, always here to listen! Take it easy now')
+        else:
+            print('\nPlease enter Y or N')
     else:
         print('\nPlease enter Y or N')
 
